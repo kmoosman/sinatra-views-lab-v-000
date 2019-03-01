@@ -4,6 +4,12 @@
         <title>Date</title>
     </head>
     <body>
-      <h1>The date is <%= DateTime.now.strftime('%aday,&nbsp %b %d, &nbsp%Y') %> </h1>
+      <% date = DateTime.now
+
+      %>
+      <h1> <%= date.month </h1>
     </body>
 </html>
+
+
+<!-- .strftime('%aday,&nbsp ç%b %d, &nbsp%Y') -->
